@@ -19,23 +19,26 @@ Made With ❤ By @TeleRoidGroup.
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏡 Home ", callback_data="home")]
+        [InlineKeyboardButton("🍃 Session String Process 🍃", callback_data="generate")],
+        [InlineKeyboardButton(text="🏡 Home ", callback_data="home")],
+        [
+            InlineKeyboardButton("🤖 BotsList 🤖", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")
+        ]
     ]
 
     generate_button = [
-        [InlineKeyboardButton(" Start Generating Session", callback_data="generate")]
+        [InlineKeyboardButton(" Start Session String Process", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("Updates Channel", url="https://t.me/TeleRoidGroup")],
+        [InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("♻ Help", callback_data="help"),
+            InlineKeyboardButton("🛡 About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("🍃 Session String 🍃", callback_data="generate")],
     ]
 
     # Help Message
