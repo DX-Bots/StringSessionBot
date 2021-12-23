@@ -7,11 +7,13 @@ class Data:
 Hey {}
 This is String Session Generator Bot
 
-If you don't trust this bot, 
-1) Stop reading this message
-2) Delete this chat
+If You Don't Trust This Bot :- 
 
-Still reading?
+➲ Stop reading this message. 
+➲ Delete this chat. 
+➲ And Good Bye!....... 
+
+Still reading the Chats 🤦‍♂?
 You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
 
 Made With ❤ By @TeleRoidGroup.
@@ -19,8 +21,8 @@ Made With ❤ By @TeleRoidGroup.
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🍃 Session String Process 🍃", callback_data="generate")],
-        [InlineKeyboardButton(text="🏡 Home ", callback_data="home")],
+        [InlineKeyboardButton("🍃 Session String Process 🍃", callback_data="generate"),
+         InlineKeyboardButton("🏡 Home ", callback_data="home")],
         [
             InlineKeyboardButton("🤖 BotsList 🤖", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")
         ]
@@ -32,8 +34,8 @@ Made With ❤ By @TeleRoidGroup.
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("Updates Channel", url="https://t.me/TeleRoidGroup")],
-        [InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")],
+        [InlineKeyboardButton("Updates Channel", url="https://t.me/TeleRoidGroup"),
+         InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14")],
         [
             InlineKeyboardButton("♻ Help", callback_data="help"),
             InlineKeyboardButton("🛡 About", callback_data="about")
@@ -56,7 +58,7 @@ start - Start the Bot
     ABOUT = """
 ╭────[🔅Session Bot🔅]───⍟
 │
-├<b>🤖 Bot Name : <a href='https://t.me/TeleRoidSessionBot'>@TeleRoidSessionBot</a></b>
+├<b>🤖 My Name: <a href='https://t.me/TeleRoidSessionBot'>@TeleRoidSessionBot</a></b>
 │
 ├<b>📢 Channel : <a href='https://t.me/TeleRoidGroup'>@TeleRoidGroup</a></b>
 │
@@ -64,15 +66,15 @@ start - Start the Bot
 │
 ├<b>💢 Source : <a href='https://github.com/PredatorHackerzZ'>Click Here</a></b>
 │
-├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
+├<b>🌐 Server: <a href='https://heroku.com'>Heroku</a></b>
 │
-├<b>📕 Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
+├<b>📕 Library: <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
 │
 ├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
 │
-├<b>👨‍💻 Developer : <a href='https://t.me/PredatorHackerZ'>@Pred∆tor</a></b>
+├<b>👨‍💻 Developer: <a href='https://t.me/PredatorHackerZ'>Pred∆tor</a></b>
 │
-├<b>🚸 Powered By : <a href='https://t.me/Moviesflixers_DL'>@HindiWebNetwork</a></b>
+├<b>🚸 Powered By:<a href='https://t.me/Moviesflixers_DL'>@HindiWebNetwork</a></b>
 │
 ╰──────[Thanks 😊]───⍟
     """
